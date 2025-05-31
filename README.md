@@ -15,8 +15,13 @@ The resulting datasets are analyzed under maximum likelihood to reconstruct well
 The following tools must be installed and accessible via your system's `$PATH`.
 
 ### Data Processing  
-- `seqkit` (v2.10.0): [https://bioinf.shenwei.me/seqkit/](https://bioinf.shenwei.me/seqkit/)  
-- `seqtk` (v1.4-r122): [https://github.com/lh3/seqtk](https://github.com/lh3/seqtk)
+- `seqkit` (v2.10.0): [https://bioinf.shenwei.me/seqkit/](https://bioinf.shenwei.me/seqkit/)
+
+### Sequence Downloading
+- **Entrez Direct (EDirect)**  
+  NCBI's command-line utilities for accessing Entrez databases.  
+  - Install: [https://www.ncbi.nlm.nih.gov/books/NBK179288/](https://www.ncbi.nlm.nih.gov/books/NBK179288/)
+
 
 ### Sequence Alignment  
 - **MUSCLE v5.3**  

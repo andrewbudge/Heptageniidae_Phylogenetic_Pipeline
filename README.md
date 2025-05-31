@@ -102,7 +102,7 @@ Sequences are downloaded using Entrez Direct (`esearch` + `efetch`) and stored i
 Sequences for each gene are aligned using MUSCLE and saved as `GENE_aln.fasta`. These are then trimmed with ClipKIT and saved as `GENE_aln_trm.fasta` in `data/clean/`.
 
 ### Step 4: Supermatrix Construction  
-All curated alignments are concatenated into a single FASTA file (`smatrix.fasta`) and analyzed using IQ-TREE. The output tree is saved as `smatrix.fasta.treefile` in `analysis/smatrix/`.
+All curated alignments are concatenated into a single FASTA file (`smatrix.fasta`) and analyzed using IQ-TREE under maximum likelihood. Results are saved to `analysis/smatrix/`.
 
 ### Step 5–6: Phylogenomic Analyses  
 Additional analyses are run on the DNA12 and amino acid datasets. Both undergo model testing using BIC and maximum likelihood tree inference using IQ-TREE. Results are saved to:

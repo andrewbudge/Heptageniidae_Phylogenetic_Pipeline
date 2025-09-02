@@ -1,0 +1,6 @@
+#!/bin/bash
+mkdir analysis/DNA12
+cp data/phylogenomic_data/DNA12_phylogenomic.fa analysis/DNA12 
+cd analysis/DNA12
+iqtree3 -s DNA12_phylogenomic.fa -nt AUTO -bb 1000
+cd ../../

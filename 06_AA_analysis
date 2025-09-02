@@ -1,0 +1,6 @@
+#!/bin/bash
+mkdir analysis/AA
+cp data/phylogenomic_data/AA_phylogenomic.fa analysis/AA 
+cd analysis/AA
+iqtree3 -s AA_phylogenomic.fa -nt AUTO -bb 1000
+cd ../../
